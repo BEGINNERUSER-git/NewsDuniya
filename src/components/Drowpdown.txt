@@ -1,0 +1,48 @@
+
+// const options = [
+//     {value:"us" ,label:"USA",code:"US"},
+//     {value:"gb" ,label:"UK",code:"GB"},
+//     {value:"fr" ,label:"France",code:"FR"},
+//     {value:"de" ,label:"Germany",code:"DE"},
+//     {value:"es" ,label:"Spain",code:"ES"},
+//     {value:"it" ,label:"Italy",code:"IT"},
+//     {value:"cn" ,label:"China",code:"CN"},
+//     {value:"ru" ,label:"Russia",code:"RU"},
+//     {value:"br" ,label:"Brazil",code:"BR"},
+//     {value:"mx" ,label:"Mexico",code:"MX"},
+//     {value:"ar" ,label:"Argentina",code:"AR"},
+//     {value:"in",label:"India",code:"IN"},
+//     {value:"au",label:"Australia",code:"AU"},
+//     {value:"ca",label:"Canada",code:"CA"},
+//     {value:"jp",label:"Japan",code:"JP"},
+//     {value:"kr",label:"South Korea",code:"KR"},
+//     {value:"tw",label:"Taiwan",code:"TW"},
+//     {value:"th",label:"Thailand",code:"TH"},
+//     {value:"sa",label:"Saudi Arabia",code:"SA"},
+//     {value:"eg",label:"Egypt",code:"EG"},
+//     {value:"ir",label:"Iran",code:"IR"},
+//     {value:"il",label:"Israel",code:"IL"},
+//     {value:"tr",label:"Turkey",code:"TR"},
+//     {value:"ua",label:"Ukraine",code:"UA"},
+//     {value:"ve",label:"Venezuela",code:"VE"},
+//     ];
+
+import React, { useState,useEffect } from "react";
+
+
+export default function App() {
+  const [country, setCountry] = useState("us");
+ 
+
+  const handleCountryChange = (country) => {
+    setCountry(country.countryCode); // Set countryCode instead of the whole object
+  };
+
+
+  return (
+    <div>
+      
+     
+    </div>
+  );
+}
