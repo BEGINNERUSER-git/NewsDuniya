@@ -1,3 +1,10 @@
+NewsDuniya
+
+![image](https://github.com/user-attachments/assets/7dba9926-5d4d-41f1-a5a3-714559f961ab)
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
